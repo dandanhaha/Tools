@@ -1,0 +1,8 @@
+*.docx
+*.pdb
+*.bat
+GatewayClient.exe
+GatewayServer.exe
+DD.dll.config
+ui/test.html
+apk/app-debug.apk
