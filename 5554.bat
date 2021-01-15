@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb.exe" -s emulator-5554 forward tcp:22222 tcp:22222

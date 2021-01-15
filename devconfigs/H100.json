@@ -1,0 +1,1 @@
+[{"ID":-3,"Label":"H100","Port":0,"Video":"视频切换","Ins":[true,true,true,true],"InNames":["in1","in2","in3","in3"],"Outs":[true,true],"OutNames":["out1","out2"],"Projector":true,"ProjectorName":"投影机","Curtains":true,"CurtainsName":"幕布","Audio":"功放","Audios":[true,true,true],"AudioNames":["主音量","有线话筒","无线话筒"]}]
