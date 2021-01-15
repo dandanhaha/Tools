@@ -610,14 +610,14 @@
             }
             return '{' + s + '}';
         }
-        Date.prototype.ShortTime = function () { return UNumStr(this.getHours(), 2, 0) + ":" + UNumStr(this.getMinutes(), 2, 0); };
-        Date.prototype.DDTime = function () { return this.getHours() * 60 + this.getMinutes(); };
         function UNumStr(s, len, char) {
             s = s + '';
             len = len - s.length;
             for (var i = 0; i < len; i++) s = char + s;
             return s;
         }
+        Date.prototype.ShortTime = function () { return UNumStr(this.getHours(), 2, 0) + ":" + UNumStr(this.getMinutes(), 2, 0); };
+        Date.prototype.DDTime = function () { return this.getHours() * 60 + this.getMinutes(); };
     </script>
 </head>
 <body>
