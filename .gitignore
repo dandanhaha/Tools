@@ -3,6 +3,6 @@
 *.bat
 GatewayClient.exe
 GatewayServer.exe
-DD.dll.config
+*.config
 ui/test.html
 apk/app-debug.apk
