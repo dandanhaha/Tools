@@ -2,6 +2,7 @@
 *.pdb
 *.bat
 GatewayClient.exe
+GatewayClient.json
 GatewayServer.exe
 *.config
 ui/test.html
