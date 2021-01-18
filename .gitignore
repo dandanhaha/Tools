@@ -1,6 +1,7 @@
 *.docx
 *.pdb
 *.bat
+!install-apphelper.bat
 GatewayClient.exe
 GatewayClient.json
 GatewayServer.exe
